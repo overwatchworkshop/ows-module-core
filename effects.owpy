@@ -1,0 +1,16 @@
+%PlayEffect(positionv, type, effectcolor)
+    Play Effect
+        Visible_To: Event Player
+        Type: type
+        Color: effectcolor
+        Position: positionv
+        Radius: 1.5
+
+%CreateEffect(pos, type, color)
+    Create Effect
+        Visible_To: Everyone
+        Type: type
+        Color: color
+        Position: pos
+        Radius: 1.5
+        Reevaluation: Visible To
