@@ -1,0 +1,18 @@
+	%Sound(type)
+    Play Effect
+        Visible_To: Event Player
+        Type: type
+        Color: White
+        Position: Event Player
+        Radius: 50
+		
+%SuccessSound
+    Sound(Buff Explosion Sound)
+	
+%FailSound
+    Sound(Debuff Impact Sound)
+	
+%WooshSound
+    Sound(Ring Explosion Sound)
+%BoomSound
+    Sound(Explosion Sound)
